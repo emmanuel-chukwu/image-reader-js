@@ -7,6 +7,8 @@ The minified file is <2kb.
 # Usage
 
 Vanilla:
+
+``
 //include image-reader.min.js
 
 //get file input element and preview element. The image will automatically be displayed in the preview element after the image is read (which happens lightning fast). At this point, only one input element can be read at a time and only one preview element is supported.
@@ -17,7 +19,7 @@ let previewElement = document.querySelector('#image-preview');
 ImageReader.readFile(input, previewElement)
   .then(resp => {
     console.log(resp)
-  })
+  })``
 
 # Response
 The promise returns the following object when successful.
@@ -31,7 +33,9 @@ The promise returns the following object when successful.
     
  # Arguments
  
- input: A valid HTML file input element //required
- previewElement: A valid HTML element in which preview image is rendered. A div or label is sufficient. //defaults to null
+``
+input: A valid HTML file input element //required
+previewElement: A valid HTML element in which preview image is rendered. A div or label is sufficient. //defaults to null
+ ``
  
  If you have any suggestions or new features you'd love to be added shoot me a mail at: limbowe.me@gmail.com
