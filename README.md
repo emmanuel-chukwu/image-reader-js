@@ -7,7 +7,7 @@ The minified file is <2kb.
 # Usage
 You need to get the file input element and a preview element (optional). The image will automatically be displayed in the preview element after the image is read (which happens lightning fast). At this point, only one input element can be read at a time and only one preview element is supported.
 
-## Vanilla JS:
+### Vanilla JS:
 
 ```
 //include image-reader.min.js
