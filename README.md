@@ -21,16 +21,6 @@ ImageReader.readFile(input, previewElement)
     console.log(resp)
   })
 ```
-
-# Response
-The promise returns the following object when successful.
-
-    {
-      message: "Image read successfully",
-      file: *//file object*,
-      base64image: *//base64image*,
-      blog: *//image blog*
-    }
     
  # Arguments
  
@@ -39,5 +29,15 @@ input: A valid HTML file input element //required
 
 previewElement: A valid HTML element in which preview image is rendered. A div or label is sufficient. //defaults to null
  ```
+
+# Response
+The promise returns the following object when successful.
+
+    {
+      message: "Image read successfully",
+      file: //file object,
+      base64image: //base64image,
+      blog: //image blog
+    }
  
  If you have any suggestions or new features you'd love to be added shoot me a mail at: limbowe.me@gmail.com
