@@ -2,7 +2,7 @@
 
 Image Reader JS is simple Javascript library for reading file input (best for images) into base64, blob and File object.
 
-The minified file is <2kb.
+The minified file is <960B.
 
 # Usage
 You need to get the file input element and a preview element (optional). The image will automatically be displayed in the preview element after the image is read (which happens lightning fast). At this point, only one input element can be read at a time and only one preview element is supported.
