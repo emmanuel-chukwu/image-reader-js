@@ -39,4 +39,4 @@ The promise returns the following object when successful.
       blog: //image blog
     }
  
- If you have any suggestions or new features you'd love to be added shoot me a mail at: limbowe.me@gmail.com
+If you have any ideas or new functionality that you would like to see included, please do not hesitate to send me an email at limbowe.me@gmail.com. I am always open to hearing from my users and am eager to learn about new ways to improve my offerings. Whether you have a suggestion for a new feature or simply want to provide feedback, I would love to hear from you. So, please don't hesitate to drop me a line at limbowe.me@gmail.com, and I will do my best to respond promptly and thoughtfully to your message. Thank you for your time and consideration!
